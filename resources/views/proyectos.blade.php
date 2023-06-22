@@ -5,8 +5,8 @@
 @section('content')
 
     @component('components.breadcrumb')
-        @slot('li_1') Projects @endslot
-        @slot('title') Projects Grid @endslot
+        @slot('li_1') Proyectos @endslot
+        @slot('title') Todos @endslot
     @endcomponent
 
     <div class="row">

@@ -5,8 +5,8 @@
 @section('content')
 
     @component('components.breadcrumb')
-        @slot('li_1') Tasks @endslot
-        @slot('title') Task List @endslot
+        @slot('li_1') Tareas @endslot
+        @slot('title') Lista @endslot
     @endcomponent
 
     <div class="row">

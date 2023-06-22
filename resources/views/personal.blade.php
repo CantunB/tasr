@@ -5,8 +5,8 @@
 @section('content')
 
     @component('components.breadcrumb')
-        @slot('li_1') Contacts @endslot
-        @slot('title') Users List @endslot
+        @slot('li_1') Personal @endslot
+        @slot('title') Lista @endslot
     @endcomponent
 
     <div class="row">

@@ -13,8 +13,8 @@
 @section('content')
 
     @component('components.breadcrumb')
-        @slot('li_1') Ecommerce @endslot
-        @slot('title') Add Product @endslot
+        @slot('li_1') Requisicion @endslot
+        @slot('title') Nueva @endslot
     @endcomponent
 
     <div class="row">

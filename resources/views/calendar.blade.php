@@ -23,7 +23,7 @@
                         <div class="lnb-new-schedule float-sm-end ms-sm-3">
                             <button id="btn-new-schedule" type="button" class="btn btn-primary lnb-new-schedule-btn"
                                 data-toggle="modal">
-                                New schedule</button>
+                                Nuevo</button>
                         </div>
                         <div id="calendarList" class="lnb-calendars-d1 me-sm-0 mb-4"></div>
 

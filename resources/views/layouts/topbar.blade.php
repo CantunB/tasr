@@ -2,7 +2,7 @@
     <div class="navbar-header">
         <div class="d-flex">
             <!-- LOGO -->
-            <div class="navbar-brand-box">
+            <div class="navbar-brand-box" style="background-color: white">
                 <a href="index" class="logo logo-dark">
                     <span class="logo-sm">
                         <img src="{{ URL::asset ('/assets/images/logo.svg') }}" alt="" height="22">
@@ -14,10 +14,15 @@
 
                 <a href="index" class="logo logo-light">
                     <span class="logo-sm">
-                        <img src="{{ URL::asset ('/assets/images/logo-light.svg') }}" alt="" height="22">
+                        {{--  <h2>PUERTO CARMEN</h2>  --}}
+                        <img src="{{ URL::asset ('/assets/images/tasr.webp') }}" alt="" height="50" width="200">
+
+                        {{--  <img src="{{ URL::asset ('/assets/images/PC.svg') }}" alt="" height="22">  --}}
                     </span>
                     <span class="logo-lg">
-                        <img src="{{ URL::asset ('/assets/images/logo-light.png') }}" alt="" height="19">
+                        {{--  <h2 class="text-white">PUERTO CARMEN</h2>  --}}
+
+                        <img src="{{ URL::asset ('/assets/images/tasr.webp') }}" alt="" height="50" width="200">
                     </span>
                 </a>
             </div>
@@ -37,7 +42,7 @@
         <div class="dropdown dropdown-mega d-none d-lg-block ms-2">
             <button type="button" class="btn header-item waves-effect" data-bs-toggle="dropdown" aria-haspopup="false" aria-expanded="false">
                 <span key="t-megamenu">@lang('translation.Mega_Menu')</span>
-                <i class="mdi mdi-chevron-down"></i> 
+                <i class="mdi mdi-chevron-down"></i>
             </button>
             <div class="dropdown-menu dropdown-megamenu">
                 <div class="row">
@@ -119,7 +124,7 @@
                                     <li>
                                         <a href="javascript:void(0);" key="t-faqs">@lang('translation.FAQs')</a>
                                     </li>
-                        
+
                                 </ul>
                             </div>
                         </div>
@@ -175,12 +180,12 @@
             </button>
             <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0"
                 aria-labelledby="page-header-search-dropdown">
-                
+
                 <form class="p-3">
                     <div class="form-group m-0">
                         <div class="input-group">
                             <input type="text" class="form-control" placeholder="@lang('translation.Search')" aria-label="Search input">
-                            
+
                             <button class="btn btn-primary" type="submit"><i class="mdi mdi-magnify"></i></button>s
                         </div>
                     </div>
@@ -375,7 +380,7 @@
                 </div>
                 <div class="p-2 border-top d-grid">
                     <a class="btn btn-sm btn-link font-size-14 text-center" href="javascript:void(0)">
-                        <i class="mdi mdi-arrow-right-circle me-1"></i> <span key="t-view-more">@lang('translation.View_More')</span> 
+                        <i class="mdi mdi-arrow-right-circle me-1"></i> <span key="t-view-more">@lang('translation.View_More')</span>
                     </a>
                 </div>
             </div>
@@ -408,7 +413,7 @@
                 <i class="bx bx-cog bx-spin"></i>
             </button>
         </div>
-        
+
     </div>
 </div>
 </header>
